@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.container {
+    background-color:lightgray;
+    background-size: cover;
+    padding-bottom: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-container {
+    background-image: url('https://miro.medium.com/v2/resize:fit:900/1*WYqCugpWNGt12Qf6Y6ftwg.jpeg');
+    background-size: cover;
+    height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login-nurse-container {
+    background-image: url('https://www.healthcare-management-degree.net/wp-content/uploads/2020/09/Can-I-Work-in-a-Hospital-With-a-Healthcare-Management-Degree-2.jpg');
+    background-size: cover;
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
